@@ -9,10 +9,12 @@ import img2 from "../../assets/home/slide2.jpg";
 import img3 from "../../assets/home/slide3.jpg";
 import img4 from "../../assets/home/slide4.jpg";
 import img5 from "../../assets/home/slide5.jpg";
+import SectionTitle from "../../Components/SectionTitle";
 
 const Category = () => {
   return (
     <div className="py-8">
+      <SectionTitle heading={"Order Online"} subHeading={"From 11am to 10pm"} />
       <Swiper
         slidesPerView={4}
         spaceBetween={30}
